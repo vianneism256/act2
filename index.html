@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background-color: seashell;
+            margin: 0;
+        }
+
+        .signup-form {
+            background-color: rgb(26, 40, 40);
+            padding: 20px;
+            margin-top: 120px;
+            border-radius: 12px;
+            width: 260px;
+            text-align: center;
+        }
+
+        .signup-form h2 {
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        .signup-form input {
+
+            width: 100%;
+            padding: 10px;
+            padding-right: 0px;
+            padding-left: 5px;
+            margin: 10px 0;
+            border: 0px solid;
+            border-radius: 2px;
+
+        }
+
+        .signup-form button {
+            width: 100%;
+            padding: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            background-color: lightseagreen;
+            color: white;
+            border: none;
+            border-radius: 2px;
+            font-size: 16px;
+
+        }
+
+        .signin-text {
+            text-decoration: underline;
+            color: blue;
+        }
+        
+        .already {
+            color: white;
+        }
+
+        .already a {
+        text-decoration: underline;
+        color: blue;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="signup-form">
+        <h2>Sign Up Today!</h2>
+        <form>
+            <input type="fname" placeholder="Full Name">
+            <input type="email" placeholder="example@gmail.com">
+            <input type="password" placeholder="Password">
+            <input type="Confirm Password" placeholder="Confirm Password">
+            <button type="submit">SIGN UP</button>
+            <p class="already">Already have an Account? <a href="">Sign In</a>.</p>
+        </form>
+    </div>
+</body>
+</html>
+
